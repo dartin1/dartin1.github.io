@@ -1,0 +1,151 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    header p {
+        display: block;
+        text-align: center;
+        font-size: 36px;
+    }
+
+    header .callback {
+        display: block;
+        color: #0b0b0b;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    header .callback:hover {
+        color: #0b0b0b;
+    }
+
+    header .number {
+        display: block;
+        color: #0b0b0b;
+        text-align: center;
+    }
+
+    header img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    header .advantages-frame {
+        text-align: center;
+        margin: auto;
+    }
+
+    header .blur {
+        top: -20px;
+        left: 0;
+    }
+
+    .recipe {
+        text-align: center;
+    }
+    .delivery {
+        text-align: center;
+    }
+    .delivery p{
+        color: #000;
+        font-family: pfdintextcomppro-medium, sans-serif;
+    }
+    .conditions .img-wrapper {
+        text-align: center;
+    }
+    footer .number {
+        float: none;
+    }
+    footer a {
+        float: none;
+    }
+    footer img {
+        display: block;
+        margin: 0 auto;
+    }
+    footer a {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    header .button {
+        font-size: 14px;
+    }
+    .range .button {
+        font-size: 14px;
+    }
+
+    .blogs .button {
+        font-size: 14px;
+    }
+    .map .button {
+        font-size: 14px;
+    }
+    .conditions .button {
+        font-size: 14px;
+    }
+    .our-works .button {
+        font-size: 14px;
+    }
+    .your-brand .button {
+        font-size: 14px;
+    }
+    .oil-paint .button {
+        font-size: 14px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    header .button {
+        font-size: 12px;
+        padding: 20px 20px 20px 20px;
+    }
+    .range .button {
+        font-size: 12px;
+        padding: 20px 20px 20px 20px;
+    }
+    .blogs .button {
+        font-size: 12px;
+        padding: 20px 20px 20px 20px;
+    }
+    .map .button {
+        font-size: 12px;
+        padding: 20px 20px 20px 20px;
+    }
+    .conditions .button {
+        font-size: 12px;
+        padding: 20px 20px 20px 20px;
+    }
+    .our-works .button {
+        font-size: 12px;
+        padding: 20px 20px 20px 20px;
+    }
+    .your-brand .button {
+        font-size: 12px;
+        padding: 20px 20px 20px 20px;
+    }
+    .oil-paint .button {
+        font-size: 12px;
+        padding: 20px 20px 20px 20px;
+    }
+    .recipe .corinthia-text {
+        padding-right: 0px;
+    }
+    .range .title h3 {
+        margin-top: 0px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
